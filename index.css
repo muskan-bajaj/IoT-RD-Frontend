@@ -117,6 +117,10 @@
     color: #454A6D;
 }
 
+.hamburger{
+    display: none;
+}
+
 .logo{
     width: 173px;
     height: 61px;
@@ -352,6 +356,10 @@ li{
     line-height: 20px;
     color: #005DF2;
     cursor: pointer;
+}
+
+.mobileImage{
+    display: none;
 }
 
 .desktopImage img{
@@ -704,7 +712,7 @@ li{
 
 .footer{
     width: 1440px;
-    height: 672px;
+    /* height: 672px; */
     margin-top: 38.02px;
     background-color: #061C41;
     /* display: flex; */
@@ -874,4 +882,491 @@ hr{
     line-height: 28px;
     color: #FFFFFF;
     /* text-align: center; */
+}
+
+@media only screen and (max-width:360px){
+    body{
+        width: 360px;
+        /* height: 4556px; */
+        /* background-color: #FFFFFF; */
+    }
+    .contact{
+        display: none;
+    }
+    .navElements, .cart, .profile, .searchInput{
+        display: none;
+    }
+
+    .navDetails, .navBar{
+        height: 104.54px;
+        width: 360px;
+    }
+
+    .hamburger{
+        display: block;
+        width: 16px;
+        height: 14px;
+        margin-left: 16px;
+        margin-top: 53px;
+    }
+
+    .logo{
+        width: 119px;
+        height: 41.96px;
+        align-items: center;
+    }
+
+    .searchBar{
+        border: none;
+        /* border-radius: 5px; */
+        /* width: 243px; */
+        /* height: 58px; */
+        width: 20.26px;
+        height: 20.72px;
+        margin-left: 60px;
+        margin-top: 30px;
+        /* display: flex; */
+        background-color: transparent;
+    }
+
+    .desktop{
+        width: 360px;
+        display: block;
+        height: 700px;
+    }
+    .heading{
+        width: 329px;
+        height: 0px;
+        margin-left: 16px;
+        padding-top: 16.46px;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .subHeading{
+        width: 330px;
+        /* height: 38px; */
+        margin-left: 15px;
+        margin-top: 105px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .desktopImage{
+        display: none;
+    }
+
+    .mobileImage{
+        display: block;
+        margin-top: 34px;
+    }
+
+    .mobileImage img{
+        display: block;
+        width: 215.41px;
+        height: 295px;
+        margin-left: 56.33px;
+        /* margin-top: 30px; */
+    }
+
+    .article{
+        position: fixed;
+        width: 329px;
+        /* height: 123px; */
+        margin-left: 16px;
+        margin-top: -226px;
+        z-index: 1;
+        /* background: #FFFFFF; */
+    }
+
+    .articleText1{
+        width: 140px;
+        height: 32px;
+        margin-left: 16px;
+        margin-top: -2px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .articleText2{
+        width: 181px;
+        height: 16px;
+        margin-left: 16px;
+        margin-top: 14px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+   
+    .articleButton1{
+        width: 86px;
+        height: 23px;
+        margin-left: 72px;
+        margin-top: 35px;
+        border-radius: 10.0797px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .articleButton2{
+        width: 86px;
+        height: 23px;
+        margin-left: 31px;
+        margin-top: 11px;
+        border-radius: 10.0797px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .viewCourses{
+        width: 157px;
+        height: 52px;
+        margin-left: 15px;
+        margin-top: 148px;
+        border-radius: 9px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .howItWorks{
+        width: 157px;
+        height: 52px;
+        margin-left: 16px;
+        border-radius: 9px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    /* .ourServices{
+        display: none;
+    } */
+
+    .ourServices{
+        width: 360px;
+        height: 590px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .headingS{
+        width: 112px;
+        height: 22px;
+        margin-left: 109px;
+        padding-top: 15px;
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .subHeadingS{
+        width: 302px;
+        height: 19px;
+        margin-left: 14px;
+        margin-top: 7px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .cardLine{
+        display: block;
+    }
+
+    .cardImage{
+        width: 70px;
+        height: 70px;
+        margin-left: 14px;
+        margin-top: 34px;
+        border-radius: 3.24074px;   
+    }
+
+    .cardImage svg{
+        width: 40.57px;
+        height: 40.57px;
+        margin-left: 14.85px;
+        margin-top: 14.85px;
+    }
+
+    .cardText{
+        width: 245px;
+    }
+
+    .cardHeading{
+        width: 100px;
+        height: 22px;
+        margin-left: 16px;
+        margin-top: 29px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .cardSubHeading{
+        width: 220px;
+        height: 64px;
+        margin-left: 16px;
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .viewCoursesBlue{
+        display: none;
+    }
+
+    .aboutUs{
+        width: 360px;
+    }
+
+    .aboutUsHeading{
+        width: 79px;
+        height: 22px;
+        margin-left: 141px;
+        margin-top: 22px;
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .aboutUsSubHeading{
+        width: 243px;
+        height: 19px;
+        margin-left: 59px;
+        margin-top: 7px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .aboutUsText{
+        width: 330px;
+        height: 347px;
+        margin-left: 15px;
+        margin-top: 23px;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .whyUs{
+        width: 360px;
+        height: 903px;
+    }
+
+    .whyUsHeading{
+        width: 100px;
+        height: 22px;
+        margin-left: 141px;
+        padding-top: 31px;
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .whyUsContent{
+        flex-direction: column-reverse;
+    }
+
+    .whyUsSubHeading{
+        width: 234px;
+        height: 19px;
+        margin-left: 53px;
+        margin-top: 7px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .whyUsCardImage{
+        width: 70px;
+        height: 70px;
+        margin-left: 33px;
+        margin-top: 36px;
+        border-radius: 2.39726px;
+    }
+
+    .whyUsCardImage svg{
+        width: 44.59px;
+        height: 37.88px;
+        margin-left: 12.47px;
+        margin-top: 16.3px;
+    }
+
+    .whyUsCardHeading{
+        width: 188px;
+        height: 22px;
+        margin-left: 16px;
+        margin-top: 36px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .whyUsCardSubHeading{
+        width: 188px;
+        height: auto;
+        margin-left: 16px;
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .link{
+        width: 150px;
+        height: 19px;
+        margin-left: 16px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #ILPASCard{
+        margin-top: 26px;
+    }
+
+    .whyUsImage img{
+        width: 274.25px;
+        height: 294.74px;
+        margin-left: 37px;
+        margin-top: 27px;
+    }
+
+    .client{
+        width: 360px;
+    }
+
+    .clientHeading{
+        width: 154px;
+        height: 22px;
+        margin-left: 103px;
+        margin-top: 53px;
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .clientSubHeading{
+        width: 253px;
+        height: 16px;
+        margin-left: 54px;
+        margin-top: 14px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .clientCard{
+        flex-direction: column;
+    }
+
+    .footer{
+        width: 360px;
+    }
+
+    .clientImage{
+        width: 307.06px;
+        height: 87.98px;
+        margin-left: 26px;
+        margin-top: 20px;
+    }
+
+    .image1{
+        width: 72.33px;
+        height: 72.33px;
+        margin-left: 65px;
+        margin-top: 39.79px;
+    }
+
+    .image2{
+        width: 147.55px;
+        height: 73.71px;
+        margin-left: 10.13px;
+        margin-top: 34px;
+    }
+
+    .textBelowImage{
+        width: 311px;
+        height: 85px;
+        margin-left: 25px;
+        margin-top: 34.89px;
+        font-size: 22.489px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .topRow{
+        flex-direction: column;
+    }
+
+    .c2Heading, .c3Heading{
+        /* width: 360px; */
+        /* height: 40px; */
+        font-size: 28px;
+        line-height: 39px;
+        /* margin-left: 0px; */
+        /* margin-top: 0px; */
+    }
+
+    .c4Heading{
+        font-size: 25.3001px;
+        line-height: 39px;
+    }
+
+    .column2{
+        /* margin-left: 120px; */
+        margin-top: 42px;
+        height: auto;
+        /* width: 360px; */
+        /* text-align: center; */
+    }
+
+    .c2Heading{
+        width: 120px;
+    }
+
+    .c2Heading, .c2List ul li{
+        text-align: center;
+    }
+
+    li{
+        padding-right: 0;
+    }
+
+    .column3{
+        /* margin-left: 113px; */
+        margin-top: 67px;
+        height: auto;
+        /* width: 360; */
+        /* text-align: center; */
+    }
+
+    .column4{
+        margin-left: 10px;
+        margin-top: 67px;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .c4EmailInput input{
+        width: 266px;
+        height: 66px;
+    }
+
+    .c4Button{
+        width: 134px;
+    }
+
+    .c4FollowUs{
+        margin-left: 124px;
+        margin-top: 60px;
+    }
+
+    .c4Icons{
+        margin-left: 90px;
+        margin-top: 18px;
+    }
+
+    hr{
+        width: 323px;
+        margin-left: 16px;
+        margin-top: 101.8px;
+    }
+
+    .bottomRow{
+        width: 227px;
+        height: 120px;
+        margin-left: 77px;
+        margin-top: 37px;
+        text-align: center;
+    }
 }
